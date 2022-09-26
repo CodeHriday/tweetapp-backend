@@ -22,7 +22,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/")
 @Slf4j
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class TweetController {
     @Autowired
     Producer producer;
